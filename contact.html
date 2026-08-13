@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Quality Education</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">Quality <span>Education</span></div>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <div>
+        <p>GET IN TOUCH</p>
+        <h1>Contact Us</h1>
+    </div>
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-info">
+
+        <p class="mini-title">CONTACT QUALITY EDUCATION</p>
+        <h2>Start Your Learning Journey</h2>
+
+        <div class="contact-card">
+            <div class="contact-icon">📞</div>
+            <div>
+                <h3>Phone</h3>
+                <a href="tel:9772548498">9772548498</a>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">📍</div>
+            <div>
+                <h3>Address</h3>
+                <p>Sarana Road, Kishangarh</p>
+            </div>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-icon">🎓</div>
+            <div>
+                <h3>Classes</h3>
+                <p>Quality Education & Foundation Classes</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-form-box">
+        <h2>Enquiry Form</h2>
+
+        <form id="contactForm">
+
+            <label>Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label>Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter phone number" required>
+
+            <label>Class / Course</label>
+            <select id="course" required>
+                <option value="">Select a class</option>
+                <option>Foundation Classes</option>
+                <option>School Coaching</option>
+                <option>Exam Preparation</option>
+                <option>Other</option>
+            </select>
+
+            <label>Your Message</label>
+            <textarea id="message" rows="5"
+                placeholder="Write your enquiry here..." required></textarea>
+
+            <button type="submit" class="btn form-btn">Send Enquiry</button>
+
+        </form>
+    </div>
+
+</section>
+
+<section class="fees">
+    <div class="section-title">
+        <p>OUR COURSES</p>
+        <h2>Classes & Sample Fees</h2>
+        <p>Contact us for the latest fee structure and admission details.</p>
+    </div>
+
+    <div class="fee-table-wrapper">
+        <table class="fee-table">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Sample Fee</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Foundation Classes</td>
+                    <td>Monthly</td>
+                    <td>Contact for Fee</td>
+                </tr>
+
+                <tr>
+                    <td>School Coaching</td>
+                    <td>Monthly</td>
+                    <td>Contact for Fee</td>
+                </tr>
+
+                <tr>
+                    <td>Exam Preparation</td>
+                    <td>As per Course</td>
+                    <td>Contact for Fee</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="map-section">
+    <h2>Our Location</h2>
+    <p>Sarana Road, Kishangarh</p>
+
+    <a
+        href="https://www.google.com/maps/search/?api=1&query=Sarana+Road+Kishangarh"
+        target="_blank"
+        class="btn">
+        Open Location in Google Maps
+    </a>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div>
+            <h2>Quality Education</h2>
+            <p>Coaching Classes since 1999.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>📞 9772548498</p>
+            <p>📍 Sarana Road, Kishangarh</p>
+        </div>
+    </div>
+
+    <div class="copyright">
+        © 2026 Quality Education Coaching Classes. All Rights Reserved.
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+      </html>
